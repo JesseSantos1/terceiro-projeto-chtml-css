@@ -1,0 +1,136 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+/* formatações gerais */
+body {
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #e6e6e6;
+}
+h1 {
+	color: #4e4e4e;
+	font-size: 2.5em;
+}
+a {
+	text-decoration: none;
+}
+#cabecalho a:link, #cabecalho a:visited { /* --seletores (colocar o nome da classe ou id na frente faz a formatação pertencer somente aquela classe ou id especificos) */
+	color: #fff;
+	padding: 8px 12px;
+}
+#cabecalho a:hover {
+	color: #f7b600;
+	background-color: #fff;
+}
+
+#principal a:link, #principal a:visited {
+	color: #f7b600;
+}
+#principal a:hover {
+	color: #f7b600;
+	text-decoration: underline;
+}
+
+h2 {
+	color: #f7b600;
+}
+h3 {
+	color: #565656;
+	background-color: #ccc;
+	padding: 5px;
+}
+
+
+/* #tec {
+	color: black;
+	display: inline;
+}
+# blog {
+	color: white;
+	display: inline;
+}*/
+.branco {
+	color: white;
+}
+#cabecalho {
+	background-color: #f7b600;
+	padding: 15px;
+	text-align: center; /*position: relative; - correções*/
+}
+/* #tecblog {
+	margin: 50px auto;
+	width: 250px;
+	font-size: 30px;
+
+}
+# link {
+	margin: 30px auto;
+	width: 650px;
+	font-size: 22px;
+}*/
+
+#tecblog, #link {
+	padding: 10px;
+}
+#principal {
+	width: 920px;
+	margin: 0px auto;
+	padding: 20px;
+	
+}
+/* #postagem {
+	background: #fff;
+	padding: 15px;
+	margin: 15px; 
+	position: absolute; ------correçao completa
+	left: 180px;
+	width: 920px;
+}*/
+#area-postagem {
+	width: 660px;
+	float: left;
+}
+/* #postagensrecentes {
+	width: 300px;
+	background-color: #fff; ------correção completa
+	position: absolute;
+	top: 280px;
+	left: 1200px;
+	padding: 10px;
+}*/
+
+#rodape {
+	background-color: #ccc;
+	clear: both;
+	text-align: center;
+	padding: 15px;
+}
+
+.lateral {
+	width: 220px;
+	float: right;
+	background-color: white;
+	padding: 10px;
+	margin-bottom: 10px;
+
+}
+
+.postagem-lateral {
+	font-size: 0.8em;
+	padding: 5px;
+}
+
+.postagem {
+	padding: 20px;
+	margin-bottom: 20px;
+	background: white;
+}
+
+.data-postagem {
+	font-size: 0.8em;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	display: block;
+
